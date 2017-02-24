@@ -80,7 +80,7 @@ $(document).ready(function() {
 	//Set Down Arrow Button
 	jQuery('#scrollDownArrow').click(function(e) {
 		e.preventDefault();
-		jQuery.scrollTo("#story", 1000, {
+		jQuery.scrollTo("#agenda", 1000, {
 			offset:-(jQuery('#header #menu').height()), axis:'y'
 		}
 		);

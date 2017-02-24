@@ -210,10 +210,10 @@ section::before,section::after {
     left:50%;
     margin-left:-40px;
 }
-.story .col-wrapper {
+.agenda .col-wrapper {
     padding:0 10px;
 }
-.story .icon-wrapper {
+.agenda .icon-wrapper {
     position:relative;
     height:80px;
     margin-top: 40px;
@@ -254,7 +254,7 @@ section::before,section::after {
     text-transform:uppercase;
     margin:0;
 }
-.story .icon-wrapper i {
+.agenda .icon-wrapper i {
     font-size:70px;
 }
 .facts i {
