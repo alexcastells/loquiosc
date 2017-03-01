@@ -135,19 +135,6 @@ section::before,section::after {
     position:relative;
     top:-5px;
 }
-.navbar-nav>li:nth-child(1) {
-    left: calc(50% - 390px);
-}
-.navbar-nav>li:nth-child(2) {
-    left: calc(50% - 300px);
-}
-.navbar-nav>li:nth-child(3) {
-    left: calc(50% - 155px);
-}
-.navbar-nav>li:nth-child(4) {
-    left: calc(50% + 60px);
-}
-
 
 /* ==========================================================================
     03. Navigation 
@@ -492,6 +479,18 @@ section::before,section::after {
         display:inline-block;
 		position:fixed;
     }
+	.navbar-nav>li:nth-child(1) {
+		left: calc(50% - 390px);
+	}
+	.navbar-nav>li:nth-child(2) {
+		left: calc(50% - 300px);
+	}
+	.navbar-nav>li:nth-child(3) {
+		left: calc(50% - 155px);
+	}
+	.navbar-nav>li:nth-child(4) {
+		left: calc(50% + 60px);
+	}
     #logo {
         position:absolute;
         display:block !important;
@@ -517,4 +516,7 @@ section::before,section::after {
         text-align: left;
         margin-top: 30px;
     }
+	.navbar-nav>li {
+		text-align: right;
+	}
 }
