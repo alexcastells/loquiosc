@@ -135,8 +135,17 @@ section::before,section::after {
     position:relative;
     top:-5px;
 }
+.navbar-nav>li:nth-child(1) {
+    left: calc(50% - 390px);
+}
+.navbar-nav>li:nth-child(2) {
+    left: calc(50% - 300px);
+}
 .navbar-nav>li:nth-child(3) {
-    margin-right: 110px;
+    left: calc(50% - 155px);
+}
+.navbar-nav>li:nth-child(4) {
+    left: calc(50% + 60px);
 }
 
 
@@ -481,7 +490,7 @@ section::before,section::after {
     }
     .navbar-nav>li {
         display:inline-block;
-        float:none;
+		position:fixed;
     }
     #logo {
         position:absolute;
@@ -489,7 +498,7 @@ section::before,section::after {
         width:110px;
         left:50%;
         margin-left:-55px;
-        background:black;
+        background:#dcd5c5;
         -webkit-border-radius:0 0 100% 100%;
         -moz-border-radius:0 0 100% 100%;
         border-radius:0 0 100% 100%;
