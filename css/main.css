@@ -236,7 +236,16 @@ section::before,section::after {
     background-image:url(../img/parallax2.jpg);
 }
 .parallax.parallax-tme1 {
-    /*background-image:url(../img/web/parallax/p2.jpg);*/
+    background-image:url(../img/web/parallax/p-pont.jpg);
+}
+.parallax.parallax-tme2 {
+    background-image:url(../img/web/parallax/p-brindis.jpg);
+}
+.parallax.parallax-tme3 {
+    background-image:url(../img/web/parallax/p-panta.jpg);
+}
+.parallax.parallax-tme4 {
+    background-image:url(../img/web/parallax/p-dj.jpg);
 }
 .bm10 {
     margin-bottom:10px !important;
