@@ -260,6 +260,9 @@ section::before,section::after {
 .mt10 {
     margin-top:10px !important;
 }
+.mt20 {
+    margin-top:20px !important;
+}
 .p-highlight {
 	margin-top: 20px;
     margin-bottom: 20px;
@@ -438,7 +441,10 @@ section::before,section::after {
 	font-weight: bold;
 	margin: 10px 0 10px 0;
 }
-
+.cv-info {
+    font-weight: 100;
+    font-size: small;
+}
 
 /* ==========================================================================
     09. Chefs 
