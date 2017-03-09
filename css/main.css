@@ -522,7 +522,7 @@ section::before,section::after {
         font-size:40px;
     }
     #header .subtitle h4 {
-        font-size: 22px;
+        font-size: 18px;
     }
     .social-bar {
         text-align: left;
@@ -531,4 +531,10 @@ section::before,section::after {
 	.navbar-nav>li {
 		text-align: right;
 	}
+}
+
+@media (max-width:360px) {
+	#header .subtitle h4 {
+        font-size: 16px;
+    }
 }
