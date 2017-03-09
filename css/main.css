@@ -250,6 +250,15 @@ section::before,section::after {
 .bm10 {
     margin-bottom:10px !important;
 }
+.mt10 {
+    margin-top:10px !important;
+}
+.p-highlight {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
 .facts h4 {
     font-size:40px;
     margin-bottom:20px;
