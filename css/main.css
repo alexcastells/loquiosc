@@ -184,6 +184,13 @@ section::before,section::after {
     margin-bottom:15px;
     font-weight:600;
 }
+.section-subtitle {
+    font-size:22px;
+    line-height:32px;
+	text-transform:uppercase;
+    margin-bottom:15px;
+	font-weight:600;
+}
 .main.lead {
     margin-bottom:80px;
 }
@@ -385,6 +392,12 @@ section::before,section::after {
     font-weight:700;
     border: 4px solid white;
 }
+.pricing-buttons {
+	text-align: right;
+}
+.pricing-buttons .btn-danger {
+	font-weight:bold;
+}
 
 
 /* ==========================================================================
@@ -417,6 +430,13 @@ section::before,section::after {
 
 .form p {
     margin: 10px 0 30px 0;
+}
+.form-info {
+	margin-bottom: 40px;
+}
+.form-info p {
+	font-weight: bold;
+	margin: 10px 0 10px 0;
 }
 
 
@@ -501,15 +521,12 @@ section::before,section::after {
 		position:fixed;
     }
 	.navbar-nav>li:nth-child(1) {
-		left: calc(50% - 390px);
+		left: calc(50% - 245px);
 	}
 	.navbar-nav>li:nth-child(2) {
-		left: calc(50% - 300px);
-	}
-	.navbar-nav>li:nth-child(3) {
 		left: calc(50% - 155px);
 	}
-	.navbar-nav>li:nth-child(4) {
+	.navbar-nav>li:nth-child(3) {
 		left: calc(50% + 60px);
 	}
     #logo {
@@ -524,6 +541,12 @@ section::before,section::after {
         border-radius:0 0 100% 100%;
         padding: 12px;
     }
+	.pricing-buttons {
+		margin-top: 40px;
+	}
+	.sbr {
+		display: none;
+	}
 }
 
 @media (max-width:767px) {
@@ -539,6 +562,9 @@ section::before,section::after {
     }
 	.navbar-nav>li {
 		text-align: right;
+	}
+	.btn-abonament {
+		margin-bottom: 10px;
 	}
 }
 
