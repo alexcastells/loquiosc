@@ -213,6 +213,25 @@ section::before,section::after {
     left:50%;
     margin-left:-40px;
 }
+.prelead {
+    font-size:17px;
+    line-height:24px;
+    font-weight:normal;
+    text-transform:uppercase;
+    margin-bottom:60px;
+    color:#fff;
+    position:relative;
+}
+.prelead:before {
+    position:absolute;
+    content:' ';
+    background:#ed0121;
+    width:80px;
+    height:3px;
+    bottom:-40px;
+    left:50%;
+    margin-left:-40px;
+}
 .agenda .col-wrapper {
     padding:0 10px;
 }
@@ -571,6 +590,9 @@ section::before,section::after {
 	}
 	.btn-abonament {
 		margin-bottom: 10px;
+	}
+	.form-contacta {
+		margin-bottom: 70px;
 	}
 }
 
