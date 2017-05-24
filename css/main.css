@@ -71,6 +71,25 @@ section::before,section::after {
     z-index: 100;
 }
 
+.deco-none {
+    color: inherit;
+    text-decoration: inherit;
+}
+.deco-none:link {
+    color: inherit;
+    text-decoration: inherit;
+}
+.deco-none:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+.bg-menu:hover {
+    background-color: #0079C1;
+    color: #FFFFFF;
+}
+.clickable {
+    cursor: pointer;
+}
 
 /* ==========================================================================
     02. Header 
@@ -233,7 +252,11 @@ section::before,section::after {
     margin-left:-40px;
 }
 .agenda .col-wrapper {
-    padding:0 10px;
+    padding:3px 10px;
+    background-color: white;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
 .agenda .icon-wrapper {
     position:relative;
