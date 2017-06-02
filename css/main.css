@@ -263,7 +263,9 @@ section::before,section::after {
     height:80px;
     margin-top: 40px;
 }
-
+.agenda-cartell {
+    text-align: center;
+}
 
 /* ==========================================================================
     05. parallax 
