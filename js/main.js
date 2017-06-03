@@ -75,7 +75,7 @@ $(document).ready(function() {
 			}
 			);
 		});
-	}
+	};
 	animateScrollDownArrow();
 	//Set Down Arrow Button
 	jQuery('#scrollDownArrow').click(function(e) {
@@ -85,7 +85,7 @@ $(document).ready(function() {
 		}
 		);
 	});
-	jQuery('.nav > li > a, #logo a').click(function(e) {
+	jQuery('.navclick').click(function(e) {
 		e.preventDefault();
 
 		jQuery.scrollTo(jQuery(this).attr('href'), 400, {

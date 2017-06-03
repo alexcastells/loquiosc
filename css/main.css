@@ -105,6 +105,9 @@ section::before,section::after {
     background-repeat:no-repeat;
     position:relative;
 }
+.header-carta {
+	background-image:url(../img/web/carta/carta-background-top.jpg) !important;
+}
 .bg-overlay {
     position:absolute;
     top:0;
@@ -570,13 +573,19 @@ section::before,section::after {
         display:inline-block;
 		position:fixed;
     }
-	.navbar-nav>li:nth-child(1) {
-		left: calc(50% - 245px);
+	.navbar-index>li:nth-child(1) {
+		left: calc(50% - 220px);
 	}
-	.navbar-nav>li:nth-child(2) {
-		left: calc(50% - 155px);
+	.navbar-index>li:nth-child(2) {
+		left: calc(50% - 130px);
 	}
-	.navbar-nav>li:nth-child(3) {
+	.navbar-index>li:nth-child(3) {
+		left: calc(50% + 60px);
+	}
+	.navbar-index>li:nth-child(4) {
+		left: calc(50% + 160px);
+	}
+	.navbar-carta>li:nth-child(1) {
 		left: calc(50% + 60px);
 	}
     #logo {
