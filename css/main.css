@@ -108,17 +108,6 @@ section::before,section::after {
     background-repeat:no-repeat;
     position:relative;
 }
-.header-carta {
-	background-image:url(../img/web/carta/carta-background-top.jpg) !important;
-}
-@media (min-width:768px) {
-	.header-carta {
-		background-image:url(../img/web/carta/carta-background-top-desktop.jpg) !important;
-	}
-}
-.black {
-	color: black;
-}
 .bg-overlay {
     position:absolute;
     top:0;

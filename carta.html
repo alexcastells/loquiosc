@@ -65,40 +65,16 @@
 			</div><!-- container -->
 		</div><!-- menu -->
 
-		<div id="header" class="header-carta">
-			<div class="bottom text-center">
-				<a id="scrollDownArrow" href="#"><i class="fa fa-chevron-down black"></i></a>
+		<div id="carta" class="light-wrapper" style="margin-top: 50px;">
+			<iframe id="carta-frame" src="http://docs.google.com/gview?url=http://www.loquiosc.com/img/web/carta/carta-loquiosc-2017.pdf&embedded=true" style="width:100%; min-height:300px;" frameborder="0"></iframe>
+		</div>
+		<div id="download" class="light-wrapper" style="margin-bottom: 50px;">
+			<div class="row">
+				<div class="col-sm-4" style="text-align: center;">
+					<a class="btn btn-danger" href="img/web/carta/carta-loquiosc-2017.pdf" target="_blank"><i class="fa fa-download"></i> Descarrega-la en format PDF</a>
+				</div>
 			</div>
 		</div>
-		<!-- /#header -->
-
-		<div id="agenda" class="light-wrapper">
-			<section class="ss-style-top"></section>
-			<div class="container inner">
-				<div class="row">
-					<div class="col-sm-4">
-						<a class="btn btn-danger btn-abonament" href="img/web/carta/carta-loquiosc-2017.pdf" target="_blank"><i class="fa fa-download"></i> Descarrega-la en format PDF</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col-max">
-						<div class="agenda-cartell"><img src="img/web/carta/carta menjar 2017 WEB-2.png" alt="Carta"></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col-max">
-						<div class="agenda-cartell"><img src="img/web/carta/carta menjar 2017 WEB-3.png" alt="Carta"></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col-max">
-						<div class="agenda-cartell"><img src="img/web/carta/carta menjar 2017 WEB-4.png" alt="Carta"></div>
-					</div>
-				</div>
-				<!-- /.services --> 
-			</div>
-			<!-- /.container -->
-		</div><!-- #agenda -->
 
 		<footer id="footer" class="dark-wrapper">
 			<section class="ss-style-top"></section>
@@ -126,6 +102,13 @@
 		<script src="js/jquery.actual.min.js"></script>
 		<script src="js/jquery.scrollTo.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/main.js"></script>
+		<script type="text/javascript">
+			(function () {
+				jQuery(document).ready(function () {
+					var windowHeight = jQuery(window).height();
+					jQuery('#carta-frame').height(windowHeight - 50);
+				});
+			})();
+		</script>
 	</body>
 </html>
