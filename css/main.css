@@ -70,7 +70,10 @@ section::before,section::after {
     margin-top:0px;
     z-index: 100;
 }
-
+.col-max {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
 .deco-none {
     color: inherit;
     text-decoration: inherit;
@@ -107,6 +110,14 @@ section::before,section::after {
 }
 .header-carta {
 	background-image:url(../img/web/carta/carta-background-top.jpg) !important;
+}
+@media (min-width:768px) {
+	.header-carta {
+		background-image:url(../img/web/carta/carta-background-top-desktop.jpg) !important;
+	}
+}
+.black {
+	color: black;
 }
 .bg-overlay {
     position:absolute;
