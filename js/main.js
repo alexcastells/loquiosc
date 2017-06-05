@@ -78,8 +78,6 @@ $(document).ready(function () {
 		);
 	});
 	jQuery('.navclick').click(function (e) {
-		e.preventDefault();
-
 		jQuery.scrollTo(jQuery(this).attr('href'), 400, {
 			offset: -(jQuery('#header #menu').height()), axis: 'y'
 		}
