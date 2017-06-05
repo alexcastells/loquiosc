@@ -574,18 +574,30 @@ section::before,section::after {
 		position:fixed;
     }
 	.navbar-index>li:nth-child(1) {
-		left: calc(50% - 220px);
+		left: calc(50% - 320px);
 	}
 	.navbar-index>li:nth-child(2) {
-		left: calc(50% - 130px);
+		left: calc(50% - 228px);
 	}
 	.navbar-index>li:nth-child(3) {
-		left: calc(50% + 60px);
+		left: calc(50% - 155px);
 	}
 	.navbar-index>li:nth-child(4) {
+		left: calc(50% + 60px);
+	}
+	.navbar-index>li:nth-child(5) {
 		left: calc(50% + 160px);
 	}
 	.navbar-carta>li:nth-child(1) {
+		left: calc(50% - 155px);
+	}
+	.navbar-carta>li:nth-child(2) {
+		left: calc(50% + 60px);
+	}
+	.navbar-cocktails>li:nth-child(1) {
+		left: calc(50% - 130px);
+	}
+	.navbar-cocktails>li:nth-child(2) {
 		left: calc(50% + 60px);
 	}
     #logo {
