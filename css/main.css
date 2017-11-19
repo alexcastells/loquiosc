@@ -516,6 +516,9 @@ section::before,section::after {
 .dark-wrapper .ss-style-top::before {
     background-image:linear-gradient(315deg,#ed0121 50%,transparent 50%),linear-gradient(45deg,#ed0121 50%,transparent 50%);
 }
+.carta-wrapper {
+    background:#c06e6e;
+}
 .social-bar {
     width:100%;
     text-align:right;
