@@ -72,16 +72,14 @@ $(document).ready(function () {
 	//Set Down Arrow Button
 	jQuery('#scrollDownArrow').click(function (e) {
 		e.preventDefault();
-		jQuery.scrollTo("#agenda", 1000, {
-			offset: -(jQuery('#header #menu').height()), axis: 'y'
-		}
-		);
+        $('html, body').animate({
+            scrollTop: $("#agenda").offset().top
+        }, 1000);
 	});
 	jQuery('.navclick').click(function (e) {
-		jQuery.scrollTo(jQuery(this).attr('href'), 400, {
-			offset: -(jQuery('#header #menu').height()), axis: 'y'
-		}
-		);
+        $('html, body').animate({
+            scrollTop: $(jQuery(this).attr('href')).offset().top
+        }, 1000);
 	});
 
 
