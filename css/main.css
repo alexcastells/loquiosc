@@ -496,14 +496,34 @@ section::before,section::after {
 }
 
 /* ==========================================================================
-    09. Chefs 
+    09. Carta
 ========================================================================== */
-.chefs img {
-    border:5px solid #e7e7e7;
-    width: 80%;
+.carta {
+
 }
 
+.carta-item {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
+.carta-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.carta-line {
+    font-size: 85%;
+    margin-left: 20px;
+}
+.carta-line::before {
+    content: "· ";
+}
+
+.carta-foot {
+    font-style: italic;
+}
 /* ==========================================================================
     10. Footer 
 ========================================================================== */
