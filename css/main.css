@@ -269,6 +269,18 @@ section::before,section::after {
 .agenda-cartell {
     text-align: center;
 }
+.agenda-tme .icon-wrapper {
+    position:relative;
+    height:100px;
+    margin-top: 20px;
+}
+.agenda-tme .col-wrapper {
+    min-height: 270px;
+    background-color: #66908f;
+}
+.agenda-tme h3 {
+    font-size:22px;
+}
 
 /* ==========================================================================
     05. parallax 
@@ -336,7 +348,6 @@ section::before,section::after {
 .facts i {
     font-size: 70px;
 }
-
 
 /* ==========================================================================
     06. Food menu 
@@ -568,6 +579,10 @@ section::before,section::after {
 	padding-right: 4px;
 }
 
+.tme {
+    font-size: 120%;
+}
+
 /* ==========================================================================
     11. Responsive styles 
 ========================================================================== */
@@ -643,6 +658,12 @@ section::before,section::after {
 	.sbr {
 		display: none;
 	}
+    .center70 {
+        max-width: 70%;
+        /* text-align: center; */
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width:767px) {
