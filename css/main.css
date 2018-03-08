@@ -274,8 +274,11 @@ section::before,section::after {
     height:100px;
     margin-top: 20px;
 }
+.agenda-tme .info-row {
+    min-height: 250px;
+}
 .agenda-tme .col-wrapper {
-    min-height: 270px;
+    min-height: 310px;
     background-color: #66908f;
 }
 .agenda-tme h3 {
@@ -323,6 +326,12 @@ section::before,section::after {
 }
 .mt20 {
     margin-top:20px !important;
+}
+.mt50 {
+    margin-top:50px !important;
+}
+.mt75 {
+    margin-top:75px !important;
 }
 .p-highlight {
 	margin-top: 20px;
@@ -460,6 +469,10 @@ section::before,section::after {
 }
 .pricing-buttons .btn-danger {
 	font-weight:bold;
+}
+
+.btn-primary {
+    font-weight:bold;
 }
 
 
