@@ -307,16 +307,16 @@ section::before,section::after {
     padding-bottom:70px;
 }
 .parallax.parallax-tme1 {
-    background-image:url(../img/web/parallax/p-pont.jpg);
-}
-.parallax.parallax-tme2 {
     background-image:url(../img/web/parallax/p-brindis.jpg);
 }
+.parallax.parallax-tme2 {
+    background-image:url(../img/web/parallax/p-pont.jpg);
+}
 .parallax.parallax-tme3 {
-    background-image:url(../img/web/parallax/p-panta.jpg);
+    background-image:url(../img/web/parallax/p-dj.jpg);
 }
 .parallax.parallax-tme4 {
-    background-image:url(../img/web/parallax/p-dj.jpg);
+    background-image:url(../img/web/parallax/p-panta.jpg);
 }
 .bm10 {
     margin-bottom:10px !important;
