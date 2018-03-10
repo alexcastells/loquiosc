@@ -278,7 +278,7 @@ section::before,section::after {
     min-height: 250px;
 }
 .agenda-tme .col-wrapper {
-    min-height: 310px;
+    min-height: 350px;
     background-color: #66908f;
 }
 .agenda-tme h3 {
